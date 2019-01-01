@@ -6,8 +6,21 @@
   "scripts": {
     "test": "jest"
   },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "elm",
+    "console",
+    "messages",
+    "webpack",
+    "pretty",
+    "format",
+    "error",
+    "output"
+  ],
   "author": "Marten Truu",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "jest": "^23.6.0"
   },
