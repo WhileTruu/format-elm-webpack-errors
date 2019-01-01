@@ -1,0 +1,17 @@
+{
+  "name": "@whiletruu/format-elm-webpack-errors",
+  "version": "1.0.0",
+  "description": "Colours and formats elm compiler error messages in json format it finds in webpack errors.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Marten Truu",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1"
+  }
+}
