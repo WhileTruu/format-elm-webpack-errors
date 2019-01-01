@@ -19,6 +19,9 @@
     "error",
     "output"
   ],
+  "engines": {
+    "node": ">=8"
+  },
   "author": "Marten Truu",
   "license": "MIT",
   "devDependencies": {
