@@ -46,12 +46,9 @@ compiler.hooks.done.tap("done", stats => {
 
   const messages = {
     warnings,
-    errors: errors.reduce((accumulator, error) => {
-      if (isElmCompilerError(error)) {
-        return accumulator.concat([formatElmCompilerError(error)]);
-      }
-      return accumulator;
-    }, [])
+    errors: errors.map(error =>
+      isElmCompilerError(error) ? formatElmCompilerError(error) : error
+    )
   };
 
   if (!messages.errors.length && !messages.warnings.length) {
