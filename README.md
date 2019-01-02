@@ -4,6 +4,14 @@
 
 Elm compiler errors are easy to understand and useful (https://elm-lang.org/blog/compiler-errors-for-humans). However, `elm make` outputs uncoloured error messages when stdout is not a terminal (https://github.com/elm-community/elm-webpack-loader/issues/94) and this looks ugly, makes longer error messages harder to navigate and understand at a glance and clutters them with useless internal stacks.
 
+### Default error messages:
+
+![unformatted](https://user-images.githubusercontent.com/14082018/50610064-4ed8c800-0eda-11e9-8053-9b1acbc94110.png)
+
+### Messages formatted with this package:
+
+![formatted](https://user-images.githubusercontent.com/14082018/50610284-1ab1d700-0edb-11e9-939e-76cc4cb84402.png)
+
 ## Install
 
 ```bash
