@@ -1,6 +1,6 @@
 {
   "name": "@whiletruu/format-elm-webpack-errors",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Colours and formats elm compiler error messages in json format it finds in webpack errors.",
   "repository": "WhileTruu/format-elm-webpack-errors",
   "main": "index.js",
