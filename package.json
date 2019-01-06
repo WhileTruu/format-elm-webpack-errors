@@ -32,6 +32,6 @@
     "chalk": "^2.4.1"
   },
   "peerDependencies": {
-    "elm": "0.19.x",
+    "elm": "0.19.x"
   }
 }
