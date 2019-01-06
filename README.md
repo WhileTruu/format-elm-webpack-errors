@@ -1,4 +1,4 @@
-# format-elm-webpack-errors [![Version](https://img.shields.io/node/v/@whiletruu/format-elm-webpack-errors.svg)](https://www.npmjs.com/package/@whiletruu/format-elm-webpack-errors)
+# format-elm-webpack-errors [![Version](https://img.shields.io/node/v/@whiletruu/format-elm-webpack-errors.svg)](https://www.npmjs.com/package/@whiletruu/format-elm-webpack-errors) [![Elm version](https://img.shields.io/npm/dependency-version/@whiletruu/format-elm-webpack-errors/peer/elm.svg)](https://elm-lang.org/)
 
 > Colours and formats elm compiler error messages in json format it finds in webpack errors.
 
